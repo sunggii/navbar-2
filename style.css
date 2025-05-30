@@ -1,0 +1,37 @@
+body {
+    background: url('img/moon-bg.jpg') rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form .searchBtn{
+    background-color: #f94ca4;
+    border: #f94ca4;
+    border-radius: 10px;
+    color: #fff;
+}
+form .searchBtn:hover{
+    cursor: pointer;
+     background-color: #f94ca5b1;
+}
+
+.text {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center; 
+    align-items: center;
+    font-size: 2.5rem;
+    padding-bottom: 140px;  
+}
+
+/*ไม่สำเร็จ*/
+@media (max-width: 991px) {
+    nav .sidebar{
+        backdrop-filter: blur(10px);
+    }
+}
